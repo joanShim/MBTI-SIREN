@@ -1,0 +1,47 @@
+body {
+  font-family: "Pretendard Variable", sans-serif;
+  word-break: keep-all;
+  padding: 84px 10px 80px;
+}
+
+img {
+  display: block;
+}
+
+.inner {
+  width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  color: #222;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 30px 50px;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-bottom: 35px;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, .5);
+  transition: .1;
+}
+
+.btn:active {
+  box-shadow: 0 0px 0 rgba(0, 0, 0, .5);
+  transform: translateY(5px);
+}
+
+.share--link {
+  color: #fff;
+  
+}
