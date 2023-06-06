@@ -9,7 +9,7 @@ img {
 }
 
 .inner {
-  width: 600px;
+  /* width: 600px; */
   height: 100%;
   margin: 0 auto;
   text-align: center;
@@ -40,5 +40,16 @@ img {
 }
 
 .share--link {
-  /* color: #fff; */
+  color: #fff;
+}
+
+@media (max-width: 640px){
+  body {
+    padding-top: 50px;
+    margin: 0 20px;
+  }
+
+  /* .page-title {
+    fsz
+  } */
 }

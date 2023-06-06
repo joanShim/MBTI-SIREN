@@ -3,9 +3,7 @@ body {
   background-image: url("../images/bg-intro.png") ;
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+  /* background-size: cover; */
 }
 
 
@@ -29,6 +27,7 @@ h1 .logo{
 .logo {
   width: 100%;
   max-width: 544px;
+  margin: 0 auto;
   margin-bottom: 42px;
 }
 .page-desc {
