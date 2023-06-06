@@ -66,9 +66,16 @@ body {
 
 .share {
   display: flex;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .share .btn {
   flex-grow: 1;
+  cursor: pointer;
+}
+
+.share .btn:first-child{
+  margin-right: 20px;
 }
 
 .share--link {

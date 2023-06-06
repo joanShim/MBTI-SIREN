@@ -15,3 +15,12 @@ teamlogoEl.src = result.character
 boxEls.forEach(function(boxEl, index){
   boxEl.innerHTML = result.results[index]
 })
+
+
+const btnShareTw = document.querySelector('#shareTwt');
+
+btnShareTw.addEventListener('click', () => {
+  const sendText = '사이렌: 불의 섬 나는 어떤 팀이 어울릴까?';
+  const pageUrl = location.href;
+  window.open(`https://twitter.com/intent/tweet?text=${sendText}&url=${pageUrl}`);
+})
