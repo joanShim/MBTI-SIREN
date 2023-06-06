@@ -11,13 +11,13 @@ export const questions = [
     number: '02',
     question: '기지를 선택했다. 그 다음으로 할 일은',
     choices: [
-      { text: '내부정비', value: '' },
-      { text: '외부파악', value: '' }
+      { text: '내부 정비', value: '' },
+      { text: '외부 파악', value: '' }
     ]
   },
   {
     number: '03',
-    question: '공격할 상대팀을 결정해야 한다.',
+    question: '공격할 상대팀을 결정해야 한다. 우리 팀은',
     choices: [
       { text: '강한 팀부터', value: '' },
       { text: '약한 팀부터', value: '' }
@@ -25,7 +25,7 @@ export const questions = [
   },
   {
     number: '04',
-    question: '기지전을 알리는 사이렌이 언제 울릴지 모른다',
+    question: '기지전을 알리는 사이렌이 언제 울릴지 모른다. 우리 팀은',
     choices: [
       { text: '전원 24시간 출동체제', value: '' },
       { text: '돌아가며 불침번제', value: '' }
@@ -41,7 +41,7 @@ export const questions = [
   },
   {
     number: '06',
-    question: '다른 팀과 연합을 맺었다. <br/> 함께 또 다른 팀을 공격하러 갈때 나는',
+    question: '다른 팀과 연합을 맺었다. <br/> 함께 또 다른 팀을 공격하러 갈때 나는?',
     choices: [
       { text: '등뒤를 믿고 전력으로 공격한다', value: 'u' },
       { text: '영원한 동지는 없다 - 함께 공격하지만 연합한 팀에 대한 경계도 늦추지 않는다', value: 's' }
@@ -49,7 +49,7 @@ export const questions = [
   },
   {
     number: '07',
-    question: '한정된 자원을 보급받을 수 있다. 우리팀의 선택은',
+    question: '한정된 자원을 보급받을 수 있다. 우리팀의 선택은?',
     choices: [
       { text: '식량', value: 'm' },
       { text: '무기', value: 'w' }
@@ -57,7 +57,7 @@ export const questions = [
   },
   {
     number: '08',
-    question: '길에서 우연히 다른 팀과 길에서 마주쳐서 협상을 진행하려 한다.',
+    question: '길에서 우연히 다른 팀과 길에서 마주쳐서 협상을 진행하려 한다. 나는?',
     choices: [
       { text: '우리 팀이 세운 플랜에서 조금 어긋나더라도 타협한 후 돌아가서 통보한다', value: '' },
       { text: '원하는 바를 온전히 얻지 못한다면 결렬한 후 돌아가서 팀원들과 의논한다', value: '' }
@@ -65,7 +65,7 @@ export const questions = [
   },
   {
     number: '09',
-    question: '연합한 팀의 방어를 돕기 위해 열심히 뛰어왔으나 이미 승기가 기운 상태!',
+    question: '연합한 팀의 방어를 돕기 위해 열심히 뛰어왔으나 이미 승기가 기운 상태! 우리 팀은',
     choices: [
       { text: '우리가 인력을 더 하면 뒤집을 수 있다. 연합을 돕는다', value: '' },
       { text: '이 상황에서 방어를 돕는 건 의미 없다. 상대팀의 기지를 빨리 함락시키는게 돕는거다', value: '' }
@@ -73,7 +73,7 @@ export const questions = [
   },
   {
     number: '10',
-    question: '릴레이로 어떤 미션을 완수해야 하고, <br/>팀원 중 내가 가장 능력이 뛰어날 때(의리게임)',
+    question: '릴레이로 어떤 미션을 완수해야 하고, <br/>팀원 중 내가 가장 능력이 뛰어날 때 나라면?(의리게임)',
     choices: [
       { text: '내가 첫번째 선수로 출전해 최대한 적게 남긴다', value: '' },
       { text: '내가 마지막에 출전해 팀원들이 남긴 몫을 깔끔하게 마무리한다', value: '' }

@@ -64,6 +64,13 @@ body {
 
 }
 
+.share {
+  display: flex;
+}
+.share .btn {
+  flex-grow: 1;
+}
+
 .share--link {
   color: #fff;
   text-decoration: none;
