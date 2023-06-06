@@ -138,7 +138,7 @@ export const results = [
 ]
 export const mbtis = {
   caum: 0,
-  casw: 0,
+  cdsw: 0,
   cdsm: 0,
   faum: 1,
   fauw: 1,

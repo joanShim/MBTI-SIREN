@@ -32,9 +32,9 @@ body {
   text-transform: uppercase;
 }
 .firefighter {color: #fe801f;}
-.police {color: #1c588a;}
+.police {color: #101e36;}
 .guard {color: #3f1c54}
-.soldier {color: #069a7f;}
+.soldier {color: #0c5730;}
 .athlete {color: #d50a03;}
 .stunt {color: #f3a500;}
 
@@ -74,7 +74,7 @@ body {
  .team-logo {
   width: 200px;
  }
- h2.title {
+ .title {
   font-size: 25px;
   margin-bottom: 15px;
  }
