@@ -32,13 +32,14 @@ h1 .logo{
   margin-bottom: 42px;
 }
 .page-desc {
+  max-width: 600px;
   font-size: 18px;
   line-height: 1.7;
   padding: 42px 44px;
   background-color: rgba(0, 0, 0, .4);
   /* border-radius: 20px; */
   border: 3px solid #fff;
-  margin: 20px 0 34px;
+  margin: 20px auto 34px;
   color: #fff;
 }
 
