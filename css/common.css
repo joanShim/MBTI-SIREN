@@ -23,7 +23,7 @@ img {
   color: #222;
   background-color: #f2f4f6;
   margin: 0 auto;
-  padding: 30px 50px;
+  padding: 20px;
   max-width: 500px;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@ footer {
 
 @media (max-width: 640px){
   body {
-    padding-top: 30px;
+    padding-top: 20px;
     margin: 0 20px;
   }
 }
