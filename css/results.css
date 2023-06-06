@@ -31,29 +31,12 @@ body {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
 }
-.firefighter {
-  color: #fe801f;
-}
-
-.police {
-  color: #1c588a;
-}
-
-.guard {
-  color: #3f1c54 
-}
-
-.soldier {
-  color: #069a7f;
-}
-
-.athlete {
-  color: #d50a03;
-}
-
-.stunt {
-  color: #f3a500;
-}
+.firefighter {color: #fe801f;}
+.police {color: #1c588a;}
+.guard {color: #3f1c54}
+.soldier {color: #069a7f;}
+.athlete {color: #d50a03;}
+.stunt {color: #f3a500;}
 
 .result {
   font-family: 'Black Han Sans', sans-serif;
@@ -81,4 +64,18 @@ body {
 .share--link {
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 640px) {
+ .page-title{
+  font-size: 48px;
+  margin: 20px auto;
+ }
+ .team-logo {
+  width: 200px;
+ }
+ h2.title {
+  font-size: 25px;
+  margin-bottom: 15px;
+ }
 }
