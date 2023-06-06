@@ -1,180 +1,156 @@
 export const questions = [
   {
     number: '01',
-    question: '곧 크리스마스! 회사에서 크리스마스 파티 스텝을 모집한다는데?',
+    question: ' 불의 섬에 입성했다. 가장 먼저 생활공간이자 방어해야하는 기지를 선택해야 한다.',
     choices: [
-      { text: '파티 스텝은 못하지ㅎ...<br>(그래도 파티는 재밌겠다 히히)', value: 'i' },
-      { text: '재밌겠다!<br>○○한테 같이 지원하자고 해야지~', value: 'e' }
+      { text: '다른 팀에 노출될 가능성도 높지만 우리가 침투하기에도 유리한 섬 중앙 기지', value: 'c' },
+      { text: '우리가 침입하러 가기에는 멀지만 다른팀이 오기에도 험해 방어에 유리한 바닷가 절벽 기지', value: 'f' }
     ]
   },
   {
     number: '02',
-    question: '해외 출장이 잡혔다!<br>전날 잠들기 전 나는?',
+    question: '기지를 선택했다. 그 다음으로 할 일은',
     choices: [
-      { text: '짐 다 챙겼고 일찍 자야지~', value: 's' },
-      { text: '다 챙겼겠지?<br>여분 옷을 좀 더 챙길까..(뒤척뒤척)', value: 'n' }
+      { text: '내부정비', value: '' },
+      { text: '외부파악', value: '' }
     ]
   },
   {
     number: '03',
-    question: '친했던 동기가<br>퇴사를?',
+    question: '공격할 상대팀을 결정해야 한다.',
     choices: [
-      { text: '일하면서 많이 힘들었나?<br>내가 좀 더 챙겨줄걸.', value: 'f' },
-      { text: '아 이직하나?<br>퇴사하고 뭐하냐고 물어봐야지.', value: 't' }
+      { text: '강한 팀부터', value: '' },
+      { text: '약한 팀부터', value: '' }
     ]
   },
   {
     number: '04',
-    question: '대규모 프로젝트를 맡게 되어 떨리는 마음에 처음 시작한 건?',
+    question: '기지전을 알리는 사이렌이 언제 울릴지 모른다',
     choices: [
-      { text: '큰 프로젝트인 만큼 계획이 중요해!<br>목적과 목표 먼저 정리해봐야지!', value: 'j' },
-      { text: '당장 미팅 잡고<br>팀원이랑 이야기하면 되겠지?', value: 'p' }
+      { text: '전원 24시간 출동체제', value: '' },
+      { text: '돌아가며 불침번제', value: '' }
     ]
   },
   {
     number: '05',
-    question: '첫 입사 날!<br>나의 첫 인사말은?',
+    question: '사이렌이 울렸다 - <br/> 상대 기지의 깃발을 뽑아 함락시켜야 한다! ',
     choices: [
-      { text: '안녕하세요ㅎㅎ 잘 부탁드려요~<br>(부끄러워 >///<)', value: '' },
-      { text: '안녕하세요! 저는 자취하고 있고요,<br>MBTI는 ~~ (빨리 친해져야지 >0<) ', value: '' }
+      { text: '모든인원이 뛰어나가 전력으로 상대 기지를 함락해 빠르게 상황을 끝낸다', value: 'a' },
+      { text: '혹시 모를 상황을 대비해 인원을 나눠 대응한다', value: 'd' }
     ]
   },
   {
     number: '06',
-    question: '날씨가 좋아~<br>유난히 일하기 싫은 날엔?',
+    question: '다른 팀과 연합을 맺었다. <br/> 함께 또 다른 팀을 공격하러 갈때 나는',
     choices: [
-      { text: '날 좋은데 일이라니.<br>그런데 어쩌겠어? 일해야지!', value: '' },
-      { text: '이럴 때 일할 순 없어!!<br>반차 써버릴 거야!', value: '' }
+      { text: '등뒤를 믿고 전력으로 공격한다', value: 'u' },
+      { text: '영원한 동지는 없다 - 함께 공격하지만 연합한 팀에 대한 경계도 늦추지 않는다', value: 's' }
     ]
   },
   {
     number: '07',
-    question: '상사한테 한 소리 들었다.<br>나는?',
+    question: '한정된 자원을 보급받을 수 있다. 우리팀의 선택은',
     choices: [
-      { text: '더 열심히 해서 잘할 수 있다는<br>사람이란 걸 보여주자!', value: '' },
-      { text: '내가 재능이 없나?<br>퇴사각..', value: '' }
+      { text: '식량', value: 'm' },
+      { text: '무기', value: 'w' }
     ]
   },
   {
     number: '08',
-    question: '일을 하는 데 너무 어려워ㅠㅠ<br>어떻게 해결하지?',
+    question: '길에서 우연히 다른 팀과 길에서 마주쳐서 협상을 진행하려 한다.',
     choices: [
-      { text: '시간을 더 끌 순 없지.<br>팀장님한테 당장 물어봐야지!', value: '' },
-      { text: '어떡하지.. 야근하더라도<br>방법을 더 찾아봐야겠다. ', value: '' }
+      { text: '우리 팀이 세운 플랜에서 조금 어긋나더라도 타협한 후 돌아가서 통보한다', value: '' },
+      { text: '원하는 바를 온전히 얻지 못한다면 결렬한 후 돌아가서 팀원들과 의논한다', value: '' }
     ]
   },
   {
     number: '09',
-    question: '좋은 곳에서 이직 제안이 왔다!<br>나의 선택은?',
+    question: '연합한 팀의 방어를 돕기 위해 열심히 뛰어왔으나 이미 승기가 기운 상태!',
     choices: [
-      { text: '인생은 도전이야!<br>좋은 기회라고 생각하고 시작해볼래!', value: '' },
-      { text: '지금 회사도 좋은데..<br>위험 부담을 안고 이직하는 게 맞을까?', value: '' }
+      { text: '우리가 인력을 더 하면 뒤집을 수 있다. 연합을 돕는다', value: '' },
+      { text: '이 상황에서 방어를 돕는 건 의미 없다. 상대팀의 기지를 빨리 함락시키는게 돕는거다', value: '' }
     ]
   },
   {
     number: '10',
-    question: '회사에서 진급 대상이 되었다.<br>나의 마음은?',
+    question: '릴레이로 어떤 미션을 완수해야 하고, <br/>팀원 중 내가 가장 능력이 뛰어날 때(의리게임)',
     choices: [
-      { text: '드디어 회사가 날 알아주는구나!<br>더 열심히 해야지!', value: '' },
-      { text: '진급하면 월급도 오르겠지?<br>월급 오르면 ○○ 사야지~ (상상의 나래~)', value: '' }
+      { text: '내가 첫번째 선수로 출전해 최대한 적게 남긴다', value: '' },
+      { text: '내가 마지막에 출전해 팀원들이 남긴 몫을 깔끔하게 마무리한다', value: '' }
     ]
   },
 ]
 export const results = [
   {
-    title: '출근 시간은<br>내가 정해!',
-    character: '/images/result_character1.png',
+    title: 'firefighter',
+    character: '/images/result_firefighter.png',
     results: [
-      '혼자서 멘탈 케어가 가능해요!<br>소속이 없어도, 벌이가 불안정해도 저는 지금이 좋아요!',
-      '일에 대한 욕심이 많아요.<br>행복한 야근이라고 할 수 있어요!',
-      '자유로운 환경에서 더 잘해요!<br>하지만 누구보다 스스로 시간 관리가 철저해요:)',
-      '리더십 있다는 소리를 자주 들어요.<br>추진력이 있는 편이죠~ (뿌듯)'
+      ': 지옥을 본 자들',
+      ': 불굴의 정신력'
     ],
-    jobs: ['프리랜서', '창업가'],
-    lectureImg: '/images/result_lecture1.png',
-    lectureUrl: 'https://bit.ly/3Wr0kt6'
+    keywords: ['', ''],
   },
   {
-    title: '프로직진러!<br>진행력 갑',
-    character: '/images/result_character2.png',
+    title: 'police',
+    character: '/images/result_police.png',
     results: [
-      '나는야 회사 사람들 멘탈 지킴이!<br>언제나 토닥토닥 으샤으샤 응원하며 다니는 파워 인싸!',
-      '여러 사람과 협업이 필요한 직무에 찰떡!',
-      '진행력 갑! 추진력 갑!<br>빠른 속도로 동시에 여러 업무를 해결할 수 있어요.',
-      '회사 행사나 크리스마스 이벤트,<br>회사사람들 생일까지 우리가 다 챙길게요'
+      ': 밤낮 없는 자들',
+      ': 끈질긴 잠복'
     ],
-    jobs: ['마케터', '기획자'],
-    lectureImg: '/images/result_lecture2.png',
-    lectureUrl: 'https://bit.ly/3SZl1t9'
+    keywords: ['', ''],
   },
   {
-    title: '우리 무기는<br>상상력!',
-    character: '/images/result_character3.png',
+    title: 'guard',
+    character: '/images/result_guard.png',
     results: [
-      '이것저것 관심이 많은 편이에요.<br>모든 게 궁금해요!',
-      '섬세함이 장점으로<br>업무를 센스 있게 처리한다는 말을 자주 들어요.',
-      '가끔은 거절을 잘 못해서 일이 몰릴 때가 있지만..!<br>전 괜찮아요~ (프로긍정러)',
-      '업무에 예민할 때도 있지만,<br>그래서 결과물은 완벽하죠!'
+      ': 죽기 위해 사는 자들',
+      ': 빈틈없는 관찰력'
     ],
-    jobs: ['디자이너', '예술가'],
-    lectureImg: '/images/result_lecture3.png',
-    lectureUrl: 'https://bit.ly/3DWlesG'
+    keywords: ['', ''],
   },
   {
-    title: '인생은<br>한방!',
-    character: '/images/result_character4.png',
+    title: 'soldier',
+    character: '/images/result_soldier.png',
     results: [
-      '전략적으로 계획을 세우는 걸 좋아해요!',
-      '평소 경제와 사회 이슈에 관심이 매우 많아요.',
-      '꿈이 커요!<br>크게 성공할 수 있는 한 방을 이뤄낼 거예요~',
-      '일할 땐 일하고! 놀 땐 놀고!<br>뭐든 확실한 게 좋아요.'
+      ': 살아남아야 하는 자들',
+      ': 일상이 전시 상황'
     ],
-    jobs: ['부동산<br>투자자', '주식<br>투자자'],
-    lectureImg: '/images/result_lecture4.png',
-    lectureUrl: 'https://bit.ly/3fvoTo5'
+    keywords: ['', ''],
   },
   {
-    title: '한 번 집중하면<br>멈출 수 없지!',
-    character: '/images/result_character5.png',
+    title: 'athlete',
+    character: '/images/result_athlete.png',
     results: [
-      '저는 위선과 가식이 없어요.<br>진실만 말하죠. (진지)',
-      '혼자서 더 잘해요.<br>솔로 워커 최고!',
-      '관심 분야가 생기면 끝도 없이 깊어져요.<br>다만 이외에 모든 것엔 관심이 없어요.',
-      '(이상) <<<<<< (현실)<br>가끔 이성에게 상처를 줄 때가 있어요, 그게 아닌데...'
+      ': 운동에 미친 자들',
+      ': 태극기의 무게'
     ],
-    jobs: ['개발자', '데이터분석가'],
-    lectureImg: '/images/result_lecture5.png',
-    lectureUrl: 'https://bit.ly/3U0O3Kj'
+    keywords: ['', ''],
   },
   {
-    title: '인생 욜로지~<br>일단 놀자 ><',
-    character: '/images/result_character6.png',
+    title: 'stunt',
+    character: '/images/result_stunt.png',
     results: [
-      '취미가 100개!<br>이것저것 다재다능해요~',
-      '한가하냐고요?<br>원래 백수가 젤 바쁜 거에요!',
-      '결혼사진에 친구들이 다 들어갈 수 있을까요?',
-      '가끔이지만, 갓생살기 도전해요!'
+      ': 두려움을 잊은 자들',
+      ': 한계없는 변신'
     ],
-    jobs: ['돈 많은 백수', '유튜버'],
-    lectureImg: '/images/result_lecture6.png',
-    lectureUrl: 'https://bit.ly/3fzdinR'
+    keywords: ['', ''],
   }
 ]
 export const mbtis = {
-  entj: 0,
-  entp: 0,
-  estp: 0,
-  esfp: 1,
-  esfj: 1,
-  enfj: 1,
-  infp: 2,
-  isfp: 2,
-  isfj: 2,
-  infj: 2,
-  estj: 3,
-  istp: 3,
-  intj: 4,
-  intp: 4,
-  istj: 4,
-  enfp: 5
+  caum: 0,
+  casw: 0,
+  cdsm: 0,
+  faum: 1,
+  fauw: 1,
+  fdum: 2,
+  fduw: 2,
+  fdsw: 2,
+  casm: 3,
+  casw: 3,
+  fasw: 3,
+  fasm: 4,
+  fdsm: 4,
+  cauw: 5,
+  cdum: 5,
+  cduw: 5
 }

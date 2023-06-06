@@ -1,0 +1,46 @@
+body {
+   background: #1d1717;
+}
+
+.progress {
+  max-width: 500px;
+  height: 5px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+.progress .value {
+  /* width: 10%; */
+  height: 5px;
+  background-color: #444;
+  transition: .2;
+}
+
+.question-box {
+  max-width: 420px;
+  padding: 60px 40px;
+  margin: 0 auto;
+  /* border: 3px solid #fff; */
+  background: #fff;
+  border-radius: 5px;
+}
+
+.question-box .number {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.question-box .question {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.question-box .choice {
+  font-size: 16px;
+  line-height: 1.7;
+}

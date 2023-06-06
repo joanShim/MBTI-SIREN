@@ -13,13 +13,11 @@ img {
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .btn {
   color: #222;
-  background-color: #fff;
+  background-color: #f2f4f6;
   margin: 0 auto;
   padding: 30px 50px;
   max-width: 500px;
@@ -37,11 +35,10 @@ img {
 }
 
 .btn:active {
-  box-shadow: 0 0px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .5);
   transform: translateY(5px);
 }
 
 .share--link {
-  color: #fff;
-  
+  /* color: #fff; */
 }
