@@ -4,6 +4,10 @@ body {
   padding: 84px 10px 80px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
 img {
   display: block;
 }
@@ -41,6 +45,14 @@ img {
 
 .share--link {
   color: #fff;
+}
+
+footer {
+  color: #fff;
+  font-size: 9px;
+  text-align: center;
+  margin: 120px auto;
+  line-height: 1.6;
 }
 
 @media (max-width: 640px){
