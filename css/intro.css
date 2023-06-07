@@ -2,8 +2,8 @@ body {
   background-color: #222;
   background-image: url("../images/bg-intro.png") ;
   background-repeat: no-repeat;
-  background-position: top center;
-  /* background-size: cover; */
+  background-position: center center;
+  background-size: auto;
   
 }
 

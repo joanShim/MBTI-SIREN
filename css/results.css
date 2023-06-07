@@ -2,7 +2,7 @@ body {
   background-color: #ece0ba;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bg-result.png);
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 .logo-title {
@@ -61,7 +61,7 @@ body {
   margin-bottom: 40px;
   width: 100%;
   max-width: 600px;
-
+  cursor: pointer;
 }
 
 .share {
