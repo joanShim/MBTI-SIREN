@@ -20,7 +20,7 @@ boxEls.forEach(function(boxEl, index){
 const btnShareTw = document.querySelector('#shareTwt');
 
 btnShareTw.addEventListener('click', () => {
-  const sendText = '사이렌: 불의 섬 나는 어떤 팀이 어울릴까?';
+  const sendText = '사이렌: 불의 섬 나와 잘 맞는 팀은 : ' + result.kor + '팀';
   const pageUrl = location.href;
   window.open(`https://twitter.com/intent/tweet?text=${sendText}&url=${pageUrl}`);
 })

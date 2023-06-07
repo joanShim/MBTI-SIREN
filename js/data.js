@@ -89,6 +89,7 @@ export const results = [
       ': 불굴의 정신력'
     ],
     keywords: ['', ''],
+    kor:'소방',
   },
   {
     title: 'police',
@@ -98,6 +99,7 @@ export const results = [
       ': 끈질긴 잠복'
     ],
     keywords: ['', ''],
+    kor:'경찰',
   },
   {
     title: 'guard',
@@ -107,6 +109,7 @@ export const results = [
       ': 빈틈없는 관찰력'
     ],
     keywords: ['', ''],
+    kor:'경호',
   },
   {
     title: 'soldier',
@@ -116,6 +119,7 @@ export const results = [
       ': 일상이 전시 상황'
     ],
     keywords: ['', ''],
+    kor:'군인',
   },
   {
     title: 'athlete',
@@ -125,6 +129,7 @@ export const results = [
       ': 태극기의 무게'
     ],
     keywords: ['', ''],
+    kor:'운동선수',
   },
   {
     title: 'stunt',
@@ -134,6 +139,7 @@ export const results = [
       ': 한계없는 변신'
     ],
     keywords: ['', ''],
+    kor:'스턴트',
   }
 ]
 export const mbtis = {
