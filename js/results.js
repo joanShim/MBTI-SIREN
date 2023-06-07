@@ -22,5 +22,6 @@ const btnShareTw = document.querySelector('#shareTwt');
 btnShareTw.addEventListener('click', () => {
   const sendText = '사이렌: 불의 섬 나와 잘 맞는 팀은 - ' + result.kor + '팀!';
   const pageUrl = location.href;
-  window.open(`https://twitter.com/intent/tweet?text=${sendText}&url=${pageUrl}`);
+  const qtOrigin = 'https://twitter.com/bluerecrue/status/1666129212460396544?s=46&t=3U5Hrdp4j3IaLZ66Q1Z7RQ';
+  window.open(`https://twitter.com/intent/tweet?text=${sendText}&url=${pageUrl} \n ${qtOrigin}`);
 })
