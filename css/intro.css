@@ -1,7 +1,6 @@
 body {
   background-color: #222;
-  /* background-image: url("../images/bg-intro.png") ; */
-  background-image: url("https://velog.velcdn.com/images/chxxng/post/537bbdee-05fc-471b-9115-43471f3ea1f7/image.png") ;
+  background-image: url("../images/bg-intro.png") ;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: auto;
